@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
-  # repo: ismailkhan-dev/v3.blog.ismailkhan.dev
+  name: github
+  # branch: main
+  repo: ismailkhan-dev/v3.blog.ismailkhan.dev
 
 publish_mode: editorial_workflow
 
