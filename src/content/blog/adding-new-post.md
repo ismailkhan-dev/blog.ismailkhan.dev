@@ -1,15 +1,15 @@
 ---
+title: TESTING - Adding new posts in AstroPaper theme
+description: Some rules & recommendations for creating or adding new posts using
+  AstroPaper theme.
 author: Sat Naing
-pubDatetime: 2022-09-23T15:22:00Z
-title: Adding new posts in AstroPaper theme
+authorTwitter: viz1er
+pubDatetime: 2022-09-23T15:22:00.000Z
 postSlug: adding-new-posts-in-astropaper-theme
 featured: true
 draft: false
 tags:
   - docs
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
