@@ -1,6 +1,6 @@
 backend:
   name: github
-  # branch: main
+  branch: main
   repo: ismailkhan-dev/v3.blog.ismailkhan.dev
 
 publish_mode: editorial_workflow
@@ -15,12 +15,12 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "$/layouts/Posts.astro",
-        }
+      # - {
+      #     label: "Layout",
+      #     name: "layout",
+      #     widget: "hidden",
+      #     default: "$/layouts/Posts.astro",
+      #   }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
