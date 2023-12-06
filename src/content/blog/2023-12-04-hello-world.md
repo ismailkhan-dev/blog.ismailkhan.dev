@@ -5,11 +5,12 @@ author: Ismail Khan
 authorTwitter: viz1er
 pubDatetime: 2023-12-04T18:50:47.741Z
 postSlug: test
-featured: true
-draft: true
+featured: false
+draft: false
 tags:
   - test
 ---
+
 # Sample Blog Post
 
 ## Introduction
@@ -42,7 +43,9 @@ This is an example of Markdown syntax:
 
 ```markdown
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted List Item 1
@@ -52,3 +55,4 @@ This is an example of Markdown syntax:
 2. Numbered List Item 2
 
 [OpenAI](https://www.openai.com)
+```

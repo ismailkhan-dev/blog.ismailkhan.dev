@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-As a Software Developer and Senior Test Engineer at the enterprise level, I blend my passion for programming with a keen sense of problem-solving to innovate and streamline processes in the dynamic world of e-commerce. My journey into programming began back in high school, where my fascination with computers and their transformative power first took root. This passion grew, intertwining with my natural problem-solving abilities, leading me to where I am today.
+As a Software Developer at the enterprise level, I blend my passion for programming with a keen sense of problem-solving to innovate and streamline processes in the dynamic world of e-commerce. My journey into programming began back in high school, where my fascination with computers and their transformative power first took root. This passion grew, intertwining with my natural problem-solving abilities, leading me to where I am today.
 
 <div>
   <img src="/assets/dev2.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
@@ -33,11 +33,10 @@ I believe that success is not just an outcome but a reflection of the skills we 
 
 While I'm currently focused on building my blog, I welcome followers on GitHub and Twitter, where I'm active in sharing updates and engaging in discussions. You can also find me on LinkedIn for a more professional connection.
 
-Twitter: [viz1er](https://twitter.com/viz1er).
-GitHub: [ismailkhan-dev](https://github.com/ismailkhan-dev)
-LinkedIn: [iikhan](https://www.linkedin.com/in/iikhan/)
-
-Or you can even give any feedback via my [email](mailto:ismailkhan.dev@gmail.com).
+- Email: [ismailkhan.dev](mailto:ismailkhan.dev@gmail.com)
+- Twitter: [viz1er](https://twitter.com/viz1er)
+- GitHub: [ismailkhan-dev](https://github.com/ismailkhan-dev)
+- LinkedIn: [iikhan](https://www.linkedin.com/in/iikhan/)
 
 <div>
   <img src="/assets/dev3.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">

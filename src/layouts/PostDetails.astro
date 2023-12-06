@@ -6,6 +6,8 @@ import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
+import LinkButton from "@components/LinkButton.astro";
+import socialIcons from "@assets/socialIcons";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -47,7 +49,16 @@ const ogUrl = new URL(
   </div>
   <main id="main-content">
     <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
-    <Datetime datetime={pubDatetime} size="lg" className="my-2" />
+    <div class="flex flex-row items-center gap-3">
+      <Datetime datetime={pubDatetime} size="lg" className="my-2" />
+      <LinkButton
+        href="https://twitter.com/viz1er"
+        className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+      >
+        <Fragment set:html={socialIcons["Twitter"]} />
+         @viz1er
+      </LinkButton>
+    </div>
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>

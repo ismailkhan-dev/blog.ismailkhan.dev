@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://blog.ismailkhan.dev/",
   author: "Ismail Khan",
   desc: "A minimalist tech blog on programming.",
-  title: "Ismail Khan | Blog",
+  title: "ik.dev // blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -33,15 +33,15 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Mail",
-    href: "mailto:ismailkhan.dev@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
-  },
-  {
     name: "Twitter",
     href: "https://twitter.com/viz1er",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
+  },
+  {
+    name: "Mail",
+    href: "mailto:ismailkhan.dev@gmail.com",
+    linkTitle: `Send an email to ${SITE.title}`,
+    active: true,
   },
 ];

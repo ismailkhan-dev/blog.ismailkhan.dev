@@ -9,7 +9,6 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 site_url: https://www.blog.ismailkhan.dev
-# site_url: http://localhost:4321/
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -21,14 +20,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Author", name: "author", widget: "string" }
-      - {
-          label: "Author Twitter Handle",
-          name: "authorTwitter",
-          widget: "string",
-        }
       - { label: "Publish Date", name: "pubDatetime", widget: "datetime" }
       - { label: "Post Slug", name: "postSlug", widget: "string" }
-      - { label: "Featured", name: "featured", widget: "boolean" }
-      - { label: "Draft", name: "draft", widget: "boolean" }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: "false",
+        }
+      - { label: "Draft", name: "draft", widget: "boolean", default: "true" }
       - { label: "Tags", name: "tags", widget: "list" }
